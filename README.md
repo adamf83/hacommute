@@ -13,6 +13,7 @@ A custom Home Assistant integration that tracks regular commutes using National 
 - **Disruption Detection**: Binary sensor that alerts on cancellations or significant delays
 - **Rich Sensor Data**: Comprehensive attributes including platforms, delays, calling points, and more
 - **Multi-Route Support**: Configure multiple commutes (e.g., morning and evening journeys)
+- **Multi-Leg Journeys**: Track commutes with one or more interchanges, with per-leg sensors and per-connection status (Connection OK, Tight Connection, Delayed Connection, Missed Connection)
 - **All Departures Mode**: Optionally track all departures from an origin station with no fixed destination
 - **Historical Performance Tracking**: Persistent daily statistics with rolling 7-day and 30-day on-time percentages and average delays
 - **UI Configuration**: Easy setup through Home Assistant's config flow interface
@@ -604,5 +605,5 @@ Train times and information are provided by National Rail's systems. While we st
 
 ---
 
-**Version**: 1.2.0
+**Version**: 1.1.6
 **Minimum Home Assistant Version**: 2024.1.0
